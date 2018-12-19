@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron poc</title>
+  </head>
+  <body>
+    <form >
+      <label for="given-url">Enter your url here</label>
+      <input type="text" id="given-url" name="given-url" autofocus>
+      <button type="submit">Go</button>
+    </form>
+    <p>Eg-url: https://ceac.state.gov/genniv/</p>
+    <script>
+    const electron = require('electron');
+    const {ipcRenderer} = electron;
+    const remote = require("electron").remote;
+
+
+    const from = document.querySelector('form');
+    from.addEventListener('submit', submitForm);
+
+    function submitForm(e) {
+      e.preventDefault();
+      const value = document.getElementById('given-url').value;
+      ipcRenderer.send('url-value', value);
+    }
+    document.addEventListener("keydown", event => {
+      switch (event.key) {
+        case "Escape":
+          if (remote.getCurrentWindow().isFullScreen()) {
+            remote.getCurrentWindow().setFullScreen(false);
+          }
+          break;
+        }
+    });
+    </script>
+    <h2>Press esc to minimize</h2>
+  </body>
+</html>

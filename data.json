@@ -1,0 +1,212 @@
+{
+  "secretQuestion": "ctl00_SiteContentPlaceHolder_txtAnswer",
+"visaApplyLocation": "ctl00_SiteContentPlaceHolder_ucLocation_ddlLocation",
+"nextButton": "ctl00_SiteContentPlaceHolder_UpdateButton3",
+"Personal1": {
+  "surName": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_SURNAME",
+  "giveName": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_GIVEN_NAME",
+  "nativeAlphabet": "ctl00_SiteContentPlaceHolder_FormView1_cbexAPP_FULL_NAME_NATIVE_NA",
+  "aliseName": "ctl00_SiteContentPlaceHolder_FormView1_rblOtherNames_1",
+  "telecodeName": "ctl00_SiteContentPlaceHolder_FormView1_rblTelecodeQuestion_1",
+  "genderMale": "ctl00_SiteContentPlaceHolder_FormView1_rblAPP_GENDER_0",
+  "genderFemale": "ctl00_SiteContentPlaceHolder_FormView1_rblAPP_GENDER_1",
+  "maritalStatus": "ctl00_SiteContentPlaceHolder_FormView1_ddlAPP_MARITAL_STATUS",
+  "date": "ctl00_SiteContentPlaceHolder_FormView1_ddlDOBDay",
+  "month": "ctl00_SiteContentPlaceHolder_FormView1_ddlDOBMonth",
+  "year": "ctl00_SiteContentPlaceHolder_FormView1_tbxDOBYear",
+  "city": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_POB_CITY",
+  "state": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_POB_ST_PROVINCE",
+  "country": "ctl00_SiteContentPlaceHolder_FormView1_ddlAPP_POB_CNTRY"
+},
+"Personal2": {
+  "regionOfOrigin": "ctl00_SiteContentPlaceHolder_FormView1_ddlAPP_NATL",
+  "otherNationality_no": "ctl00_SiteContentPlaceHolder_FormView1_rblAPP_OTH_NATL_IND_1",
+  "permanentResident_no": "ctl00_SiteContentPlaceHolder_FormView1_rblPermResOtherCntryInd_1",
+  "NationalityNumber_check": "ctl00_SiteContentPlaceHolder_FormView1_cbexAPP_NATIONAL_ID_NA",
+  "socialSecurityNumber_check": "ctl00_SiteContentPlaceHolder_FormView1_cbexAPP_SSN_NA",
+  "taxPayerId_check": "ctl00_SiteContentPlaceHolder_FormView1_cbexAPP_TAX_ID_NA"
+},
+"AddressPhone": {
+  "AddressAndPhone_street": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_ADDR_LN1",
+  "AddressAndPhone_city": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_ADDR_CITY",
+  "AddressAndPhone_state":"ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_ADDR_STATE",
+  "AddressAndPhone_pincode": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_ADDR_POSTAL_CD",
+  "AddressAndPhone_country": "ctl00_SiteContentPlaceHolder_FormView1_ddlCountry",
+  "AddressAndPhone_mail": "ctl00_SiteContentPlaceHolder_FormView1_rblMailingAddrSame_0",
+  "AddressAndPhone_PrimaryPhone":"ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_HOME_TEL",
+  "AddressAndPhone_SecondaryPhone": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_MOBILE_TEL",
+  "AddressAndPhone_WorkPhone": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_BUS_TEL",
+  "AddressAndPhone_email": "ctl00_SiteContentPlaceHolder_FormView1_tbxAPP_EMAIL_ADDR"
+},
+"PptVisa": {
+  "passportType": "ctl00_SiteContentPlaceHolder_FormView1_ddlPPT_TYPE",
+  "passportNumber":"ctl00_SiteContentPlaceHolder_FormView1_tbxPPT_NUM",
+  "passportBookNo": "ctl00_SiteContentPlaceHolder_FormView1_tbxPPT_BOOK_NUM",
+  "passportCity": "ctl00_SiteContentPlaceHolder_FormView1_tbxPPT_ISSUED_IN_CITY",
+  "issuedDate": "ctl00_SiteContentPlaceHolder_FormView1_ddlPPT_ISSUED_DTEDay",
+  "issuedMonth": "ctl00_SiteContentPlaceHolder_FormView1_ddlPPT_ISSUED_DTEMonth",
+  "issuedYear": "ctl00_SiteContentPlaceHolder_FormView1_tbxPPT_ISSUEDYear",
+  "expireDate": "ctl00_SiteContentPlaceHolder_FormView1_ddlPPT_EXPIRE_DTEDay",
+  "expireMonth":"ctl00_SiteContentPlaceHolder_FormView1_ddlPPT_EXPIRE_DTEMonth",
+  "expireYear":"ctl00_SiteContentPlaceHolder_FormView1_tbxPPT_EXPIREYear",
+  "passportStolen": "ctl00_SiteContentPlaceHolder_FormView1_rblLOST_PPT_IND_1"
+},
+"Travel": {
+  "purpose": "ctl00_SiteContentPlaceHolder_FormView1_dlPrincipalAppTravel_ctl00_ddlPurposeOfTrip",
+  "specify": "ctl00_SiteContentPlaceHolder_FormView1_dlPrincipalAppTravel_ctl00_ddlOtherPurpose",
+  "specialTravelPlan_no": "ctl00_SiteContentPlaceHolder_FormView1_rblSpecificTravel_1",
+  "specialTravelPlan_yes":"ctl00_SiteContentPlaceHolder_FormView1_rblSpecificTravel_0",
+  "arrivalDate": "ctl00_SiteContentPlaceHolder_FormView1_ddlTRAVEL_DTEDay",
+  "arrivalMonth": "ctl00_SiteContentPlaceHolder_FormView1_ddlTRAVEL_DTEMonth",
+  "arrivalYear": "ctl00_SiteContentPlaceHolder_FormView1_tbxTRAVEL_DTEYear",
+  "intentedNumber": "ctl00_SiteContentPlaceHolder_FormView1_tbxTRAVEL_LOS",
+  "calenderType":  "ctl00_SiteContentPlaceHolder_FormView1_ddlTRAVEL_LOS_CD",
+  "usStreet": "ctl00_SiteContentPlaceHolder_FormView1_tbxStreetAddress1",
+  "usDistrict": "ctl00_SiteContentPlaceHolder_FormView1_tbxCity",
+  "usState": "ctl00_SiteContentPlaceHolder_FormView1_ddlTravelState",
+  "usZipCode": "ctl00_SiteContentPlaceHolder_FormView1_tbZIPCode",
+  "payingPerson": "ctl00_SiteContentPlaceHolder_FormView1_ddlWhoIsPaying"
+},
+"TravelCompanions": {
+  "travellingWithOthers_no": "ctl00_SiteContentPlaceHolder_FormView1_rblOtherPersonsTravelingWithYou_1"
+},
+"PreviousUSTravel": {
+  "previousUsVist_no": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_US_TRAVEL_IND_1",
+  "previousUsVisa_no": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_IND_1",
+  "everRefusedUsVisa_no": "ctl00_SiteContentPlaceHolder_FormView1_rblPREV_VISA_REFUSED_IND_1",
+  "previousPetitionInYourName": "ctl00_SiteContentPlaceHolder_FormView1_rblIV_PETITION_IND_1"
+},
+"USContact": {
+  "personName": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_SURNAME",
+  "givenName": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_GIVEN_NAME",
+  "organizationName": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ORGANIZATION",
+  "relationship": "ctl00_SiteContentPlaceHolder_FormView1_ddlUS_POC_REL_TO_APP",
+  "street": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_LN1",
+  "city": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_CITY",
+  "state": "ctl00_SiteContentPlaceHolder_FormView1_ddlUS_POC_ADDR_STATE",
+  "zipcode": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_ADDR_POSTAL_CD",
+  "phone": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_HOME_TEL",
+  "email": "ctl00_SiteContentPlaceHolder_FormView1_tbxUS_POC_EMAIL_ADDR"
+},
+"Relatives": {
+  "father":{
+    "name": "ctl00_SiteContentPlaceHolder_FormView1_tbxFATHER_SURNAME",
+    "givenName": "ctl00_SiteContentPlaceHolder_FormView1_tbxFATHER_GIVEN_NAME",
+    "fatherInUs_no": "ctl00_SiteContentPlaceHolder_FormView1_rblFATHER_LIVE_IN_US_IND_1",
+    "date": "ctl00_SiteContentPlaceHolder_FormView1_ddlFathersDOBDay",
+    "month": "ctl00_SiteContentPlaceHolder_FormView1_ddlFathersDOBMonth",
+    "year": "ctl00_SiteContentPlaceHolder_FormView1_tbxFathersDOBYear"
+  },
+  "mother": {
+    "name": "ctl00_SiteContentPlaceHolder_FormView1_tbxMOTHER_SURNAME",
+    "givenName": "ctl00_SiteContentPlaceHolder_FormView1_tbxMOTHER_GIVEN_NAME",
+    "motherInUs_no": "ctl00_SiteContentPlaceHolder_FormView1_rblMOTHER_LIVE_IN_US_IND_1",
+    "date": "ctl00_SiteContentPlaceHolder_FormView1_ddlMothersDOBDay",
+    "month": "ctl00_SiteContentPlaceHolder_FormView1_ddlMothersDOBMonth",
+    "year": "ctl00_SiteContentPlaceHolder_FormView1_tbxMothersDOBYear"
+  },
+  "immediateRelatives":"ctl00_SiteContentPlaceHolder_FormView1_rblUS_IMMED_RELATIVE_IND_1",
+  "otherRelatives": "ctl00_SiteContentPlaceHolder_FormView1_rblUS_OTHER_RELATIVE_IND_1"
+},
+"WorkEducation1": {
+  "primaryOccupation": "ctl00_SiteContentPlaceHolder_FormView1_ddlPresentOccupation",
+  "employeerName": "ctl00_SiteContentPlaceHolder_FormView1_tbxEmpSchName",
+  "street": "ctl00_SiteContentPlaceHolder_FormView1_tbxEmpSchAddr1",
+  "city": "ctl00_SiteContentPlaceHolder_FormView1_tbxEmpSchCity",
+  "state": "ctl00_SiteContentPlaceHolder_FormView1_tbxWORK_EDUC_ADDR_STATE",
+  "zipcode": "ctl00_SiteContentPlaceHolder_FormView1_tbxWORK_EDUC_ADDR_POSTAL_CD",
+  "phone": "ctl00_SiteContentPlaceHolder_FormView1_tbxWORK_EDUC_TEL",
+  "date": "ctl00_SiteContentPlaceHolder_FormView1_ddlEmpDateFromDay",
+  "month": "ctl00_SiteContentPlaceHolder_FormView1_ddlEmpDateFromMonth",
+  "year": "ctl00_SiteContentPlaceHolder_FormView1_tbxEmpDateFromYear",
+  "monthlyIncome": "ctl00_SiteContentPlaceHolder_FormView1_tbxCURR_MONTHLY_SALARY",
+  "describeYourJob": "ctl00_SiteContentPlaceHolder_FormView1_tbxDescribeDuties"
+}, 
+"WorkEducation2": {
+  "previouslyEmployed": "ctl00_SiteContentPlaceHolder_FormView1_rblPreviouslyEmployed_1",
+  "secondaryEducation": "ctl00_SiteContentPlaceHolder_FormView1_rblOtherEduc_1"
+},
+"WorkEducationAdditional": {
+  "clanOrTribe_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblCLAN_TRIBE_IND_0",
+  "clanOrTribe_no": "ctl00_SiteContentPlaceHolder_FormView1_rblCLAN_TRIBE_IND_1", 
+  "language": "ctl00$SiteContentPlaceHolder$FormView1$dtlLANGUAGES$ctl00$tbxLANGUAGE_NAME", 
+  "countriesVisited_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblCOUNTRIES_VISITED_IND_0",
+  "countriesVisited_no": "ctl00_SiteContentPlaceHolder_FormView1_rblCOUNTRIES_VISITED_IND_1",
+  "organization_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblORGANIZATION_IND_0",
+  "organization_no": "ctl00_SiteContentPlaceHolder_FormView1_rblORGANIZATION_IND_1",
+  "taliban_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblTALIBAN_IND_0",
+  "taliban_no": "ctl00_SiteContentPlaceHolder_FormView1_rblTALIBAN_IND_1",
+  "specializedSkill_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblSPECIALIZED_SKILLS_IND_0",
+  "specializedSkill_no": "ctl00_SiteContentPlaceHolder_FormView1_rblSPECIALIZED_SKILLS_IND_1",
+  "militaryService_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblMILITARY_SERVICE_IND_0",
+  "militaryService_no": "ctl00_SiteContentPlaceHolder_FormView1_rblMILITARY_SERVICE_IND_1",
+  "insurgentOrganization_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblINSURGENT_ORG_IND_0",
+  "insurgentOrganization_no": "ctl00_SiteContentPlaceHolder_FormView1_rblINSURGENT_ORG_IND_1"
+  },
+  "securityBacground1": {
+  "disease_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblDisease_0",
+  "disease_no": "ctl00_SiteContentPlaceHolder_FormView1_rblDisease_1",
+  "disorder_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblDisorder_0",
+  "disorder_no": "ctl00_SiteContentPlaceHolder_FormView1_rblDisorder_1",
+  "drugUser_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblDruguser_0",
+  "drugUser_no": "ctl00_SiteContentPlaceHolder_FormView1_rblDruguser_1"
+  },
+  "securityBacground2": {
+  "arrested_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblArrested_0",
+  "arrested_no": "ctl00_SiteContentPlaceHolder_FormView1_rblArrested_1",
+  "controlledSubstances_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblControlledSubstances_0",
+  "controlledSubstances_no": "ctl00_SiteContentPlaceHolder_FormView1_rblControlledSubstances_1",
+  "prostitution_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblProstitution_0",
+  "prostitution_no": "ctl00_SiteContentPlaceHolder_FormView1_rblProstitution_1",
+  "moneyLaundering_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblMoneyLaundering_0",
+  "moneyLaundering_no": "ctl00_SiteContentPlaceHolder_FormView1_rblMoneyLaundering_1",
+  "humanTrafficking_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblHumanTrafficking_0",
+  "humanTrafficking_no": "ctl00_SiteContentPlaceHolder_FormView1_rblHumanTrafficking_1",
+  "assistedSevereTrafficking_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblAssistedSevereTrafficking_0",
+  "assistedSevereTrafficking_no": "ctl00_SiteContentPlaceHolder_FormView1_rblAssistedSevereTrafficking_1",
+  "humanTraffickingrelated_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblHumanTraffickingRelated_0",
+  "humanTraffickingrelated_no": "ctl00_SiteContentPlaceHolder_FormView1_rblHumanTraffickingRelated_1"
+  },
+  "securityBacground3": {
+  "illegalActivity_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblIllegalActivity_0",
+  "illegalActivity_no": "ctl00_SiteContentPlaceHolder_FormView1_rblIllegalActivity_1",
+  "terroristActivity_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblTerroristActivity_0",
+  "terroristActivity_no": "ctl00_SiteContentPlaceHolder_FormView1_rblTerroristActivity_1",
+  "terroristSupport_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblTerroristSupport_0",
+  "terroristSupport_no": "ctl00_SiteContentPlaceHolder_FormView1_rblTerroristSupport_1",
+  "terroristOrganization_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblTerroristOrg_0",
+  "terroristOrganization_no": "ctl00_SiteContentPlaceHolder_FormView1_rblTerroristOrg_1",
+  "genocide_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblGenocide_0",
+  "genocide_no": "ctl00_SiteContentPlaceHolder_FormView1_rblGenocide_1",
+  "torture_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblTorture_0",
+  "torture_no": "ctl00_SiteContentPlaceHolder_FormView1_rblTorture_1",
+  "exViolence_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblExViolence_0",
+  "exViolence_no": "ctl00_SiteContentPlaceHolder_FormView1_rblExViolence_1",
+  "childSoldier_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblChildSoldier_0",
+  "childSoldier_no": "ctl00_SiteContentPlaceHolder_FormView1_rblChildSoldier_1",
+  "religiousFreedom_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblReligiousFreedom_0",
+  "religiousFreedom_no": "ctl00_SiteContentPlaceHolder_FormView1_rblReligiousFreedom_1",
+  "populationControls_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblPopulationControls_0",
+  "populationControls_no": "ctl00_SiteContentPlaceHolder_FormView1_rblPopulationControls_1",
+  "transplant_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblTransplant_0",
+  "transplant_no": "ctl00_SiteContentPlaceHolder_FormView1_rblTransplant_1"
+  },
+  "securityBacground4": {
+  "immigrationFraud_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblImmigrationFraud_0",
+  "immigrationFraud_no": "ctl00_SiteContentPlaceHolder_FormView1_rblImmigrationFraud_1"
+  },
+  "securityBacground5": {
+  "childCustody_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblChildCustody_0",
+  "childCustody_no": "ctl00_SiteContentPlaceHolder_FormView1_rblChildCustody_1",
+  "votingViolation_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblVotingViolation_0",
+  "votingViolation_no": "ctl00_SiteContentPlaceHolder_FormView1_rblVotingViolation_1",
+  "renounceExp_yes": "ctl00_SiteContentPlaceHolder_FormView1_rblRenounceExp_0",
+  "renounceExp_no": "ctl00_SiteContentPlaceHolder_FormView1_rblRenounceExp_1"
+  },
+  "photo": {
+  "uploadPhoto": "ctl00_SiteContentPlaceHolder_btnUploadPhoto",
+  "confirmPhoto": "ctl00_SiteContentPlaceHolder_btnUploadPhoto"
+  }
+
+}
+
