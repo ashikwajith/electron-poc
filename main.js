@@ -4,6 +4,7 @@ const axios = require('axios');
 const fetch = require('node-fetch');
 const path = require('path')
 const url = require('url')
+
 // const Bluebird = require('bluebird');
 // fetch.Promise = Bluebird;
 const automate = require('./automate-form');
@@ -19,7 +20,7 @@ let win;
 
 
 function createWindow () {
-  win = new BrowserWindow({fullscreen: true});
+  win = new BrowserWindow({fullscreen: true, show:false});
 
   const template = [
     {
@@ -43,7 +44,7 @@ function createWindow () {
 
   win.loadFile('index.html')
 
-  // win.webContents.openDevTools()
+  win.webContents.openDevTools()
 
   win.on('closed', () => {
     
@@ -82,22 +83,28 @@ async function fetchData(id, value) {
 
 function renderSite(value, data) {
 
-    win.loadURL(value);
+  win.loadURL(value);
  
-    win.webContents.on('did-finish-load', ()=>{
-  
-    //  let code = automate(data, webId);
-    let code = automate(data, webId)
-  
-     win.webContents.executeJavaScript(code);  
-   });
+  win.webContents.on('did-finish-load', ()=>{
 
+  let code = automate(data, webId)
+
+   win.webContents.executeJavaScript(code);  
+ });
+  // win.webContents.on('did-start-loading',windowLoading);
+  // win.webContents.on('did-stop-loading',WindowsReady);
+
+  // function WindowsReady() {
+  //     let code = automate(data, webId)
+  //     win.webContents.executeJavaScript(code);  
+  // }
+  // function windowLoading() {
+  //   win.loadFile('loader.html')
+  // }
 }
 
-
-
-
 app.on('ready', createWindow)
+
 
 app.on('window-all-closed', () => {
   

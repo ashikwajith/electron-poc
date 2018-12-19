@@ -6,7 +6,11 @@ automate = function(data, webId) {
   // if(document.getElementById("${webId.visaApplyLocation}")){
   // var location = document.getElementById("${webId.visaApplyLocation}");
   // location.value = "MDR";
-  // } 
+  // }  
+
+  if(params.get('node')=="SecureQuestion") {
+    sessionStorage.clear();
+  }
   console.log(params.get('node'));
   if(params.get('node')=="Personal1")
   {
