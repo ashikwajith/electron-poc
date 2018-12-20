@@ -4,14 +4,9 @@ const axios = require('axios');
 const fetch = require('node-fetch');
 const path = require('path')
 const url = require('url')
-
-// const Bluebird = require('bluebird');
-// fetch.Promise = Bluebird;
 const automate = require('./automate-form');
 const {webUrl, demoUrl, UserDetailUrl} = require('./config');
 const webId = require('./data');
-
-console.log(webId.genderFemale);
 
 process.env.NODE_ENV = 'production';
 
@@ -44,7 +39,7 @@ function createWindow () {
 
   win.loadFile('index.html')
 
-  win.webContents.openDevTools()
+  // win.webContents.openDevTools()
 
   win.on('closed', () => {
     

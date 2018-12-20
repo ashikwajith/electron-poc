@@ -3,17 +3,12 @@
 automate = function(data, webId) {
   return `
   let params = new URL(window.location.href).searchParams;
-  // if(document.getElementById("${webId.visaApplyLocation}")){
-  // var location = document.getElementById("${webId.visaApplyLocation}");
-  // location.value = "MDR";
-  // }  
 
   if(params.get('node')=="SecureQuestion") {
     sessionStorage.clear();
   }
   console.log(params.get('node'));
-  if(params.get('node')=="Personal1")
-  {
+  if(params.get('node')=="Personal1") {
     if (! sessionStorage.Personal1) {
       sessionStorage.setItem("Personal1", "true");
       var Name = document.getElementById("${webId.Personal1.surName}");
